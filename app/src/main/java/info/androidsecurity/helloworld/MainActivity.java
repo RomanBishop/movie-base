@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Some super API call using that key
         Log.i(TAG, "key: " + invokeNativeFunction());
-
+        Log.i(TAG, "key: again " + invokeNativeFunction());
 
 //        if(mContext.getPackageName().compareTo(PACKAGE_NAME) != 0){
 //            Log.d(TAG, "this is a hack");
